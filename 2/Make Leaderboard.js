@@ -29,7 +29,7 @@ function print(names, marks) {
     var rank = 1;
     var prev = marks[0];
     for (var i = 0; i < marks.length; i++) {
-        if (prev != marks[i]) //if our previous and current marks are not same, change rank to i+1 value
+        if (prev != marks[i]) 
             rank = i + 1;
 
         console.log(rank + " " + names[i]);
