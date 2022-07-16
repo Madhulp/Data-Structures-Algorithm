@@ -1,5 +1,3 @@
-
-
 function swap(arr1, arr2, j) { 
     var temp = arr1[j];
     arr1[j] = arr1[j + 1];
