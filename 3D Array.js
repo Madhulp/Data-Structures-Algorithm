@@ -5,6 +5,7 @@ function Array3D(N, M, K, array) {
             for (n = 0; n < K; n++) {
                 a = a + array[i][j][n] + ' '
             }
+            
             console.log(a);
         }
     }
